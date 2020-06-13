@@ -1,0 +1,105 @@
+.header{
+    justify-content: right;
+height: 300px;
+}
+.img{
+  margin: 10px 0px 10px 30px;
+  
+
+}
+.btn-primary{
+   justify-content: space-between;
+   width: 130px;
+}
+
+.fir{
+    margin-left: 10px;
+    margin-bottom: 29px;
+
+}
+.sec{
+    margin-left: 10px;
+}
+h4{
+    margin-left: 20px;
+    cursor: pointer;
+}
+@media screen and (max-width: 130px) {
+    .btn-primary {
+      width: 100%;
+      margin: left;
+    }
+  }
+  @media screen and (max-width: 350px) {
+    .input-group {
+      width:  100%; 
+      margin-top: -90px;
+    }
+  }
+  #home, #about , #contact{
+      font-size: 20px;
+    
+  }
+  /* @media screen and (max-width: 1) {
+#home, #about, #contact{
+     text-align: center;
+
+    }
+  } */
+
+   @media screen and (max-width: 100px) {
+    .fir {
+      margin-top: -90px;
+    
+    }
+  } 
+
+  /* #carouselExampleControls{
+    height: 200px;
+  } */
+
+  .H{
+    background-color: whitesmoke;
+    height: 300px;
+   }
+   @media screen and (max-width: 100px) {
+    .sec {
+     margin-left: 100px;
+    
+    }
+  }
+  @media screen and (max-width: 1300px) {
+  .H , .font{
+    font-size: 10px;
+     
+    }
+  }
+  @media screen and (max-width: 1300px) {
+    .H , .h{
+       font-size:15px;
+       height: 600px;
+    
+      }
+    }
+    .card {
+     margin-top: 20px;
+     height: auto;
+     width: 250px;
+     box-shadow: 10px 10px 10px black;
+  }
+
+
+  @media screen and (max-width: 600px) {
+    .card{
+       
+  text-align: justify;
+     margin-left: 90px;
+      }
+    }
+
+
+hr{
+  color: white;
+}
+
+    
